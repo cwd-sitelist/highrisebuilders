@@ -155,7 +155,7 @@ h6 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 32px;
+  line-height: 28px;
   font-weight: 400;
   color: #7e7d7d;
 }
@@ -3108,12 +3108,13 @@ a:focus {
 @media only screen and (max-width: 991px) {
   .highrise-loader .highrise-loader-bar {
     width: 70%;
+    font-size: 3em;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .highrise-loader .highrise-loader-bar {
-    font-size: 2em;
+    font-size: 1em;
   }
 }
 
@@ -6470,7 +6471,7 @@ a:focus {
 .adddress-block.s-back-switch {
   cursor: pointer;
   overflow: hidden;
-  height: 200px;
+  height: 230px;
 }
 
 .adddress-block.s-back-switch:before {
@@ -6630,7 +6631,7 @@ a:focus {
     position: relative;
   }
   .adddress-block.s-back-switch .address-block-outer {
-    padding: 40px 30px 40px;
+    padding: 13px 30px 40px;
   }
 }
 
@@ -19019,5 +19020,20 @@ a.project-list-link.a-btn-arrow-2:hover {
     color: white;
     margin:0 auto;
 }
+  
+}
+.contact-info{
+  font-size: 17px;
+}
+@media (min-width:768px) and (max-width:991px) {
+  .contact-info{
+  font-size: 14px;
+}
+}
+
+@media (min-width:1200px) and (max-width:2000px) {
+  .mobile-toggle{
+    display: none;
+  }
   
 }
