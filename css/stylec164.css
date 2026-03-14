@@ -4651,7 +4651,7 @@ a:focus {
   .highrise-logo {
   position: relative;
 }
-@media (min-width: 320px) and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 600px) {
   .highrise-footer
     .footer-top-content
     .highrise-footer-main-block
@@ -5911,7 +5911,7 @@ a:focus {
     height: 320px;
   }
   .highrise-counter.alone_item .numbers svg mask .number {
-    font-size: 120px;
+    font-size: 80px;
   }
   .highrise-counter.alone_item .numbers svg mask .title {
     font-size: 11px;
@@ -6470,6 +6470,7 @@ a:focus {
 .adddress-block.s-back-switch {
   cursor: pointer;
   overflow: hidden;
+  height: 200px;
 }
 
 .adddress-block.s-back-switch:before {
@@ -6500,7 +6501,7 @@ a:focus {
 }
 
 .adddress-block.s-back-switch .address-block-outer {
-  padding: 47px 50px 40px;
+  padding: 47px 20px 40px;
 }
 
 .adddress-block.s-back-switch:hover:before {
@@ -9085,6 +9086,7 @@ a:focus {
     .project-list-wrapper
     .project-list-content {
     margin-right: 0;
+    text-align: left;
   }
   .highrise_list
     .project-list-item:nth-child(odd)
@@ -18639,7 +18641,7 @@ span.wpcf7-not-valid-tip {
 
 @media screen and (max-width: 320px) {
   .slider-img .location {
-    padding-top: 35%;
+    padding-top: 66%;
     font-size: 9px !important;
   }
 
@@ -19007,4 +19009,15 @@ a.project-list-link.a-btn-arrow-2:hover {
   /* .mobile-toggle.active {
     transform: rotate(45deg);
   } */
+}
+@media (min-width:425px) and (max-width:600px) {
+  .highrise-footer-info-block .footer-info-block-content {
+    font-size: 13px;
+    line-height: 26px;
+    width: 355px;
+    font-weight: 400;
+    color: white;
+    margin:0 auto;
+}
+  
 }
